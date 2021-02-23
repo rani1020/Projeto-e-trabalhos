@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dan Store - Contato </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="Css/estilo.css">
+        <link rel="stylesheet" href="Css/reset.css">
+
+        <script type="text/javascript" src="/javascript/site_dan_store.js"></script>
+
+    </head>
+    
+    <body class="contato">
+
+        <header id="area-cabecalho">
+            <div id="area-logo">
+                <h1 class="nome_principal">Dan<span class="branco">Store</span></h1>
+            </div>
+
+            <img src="imagens/imagemloja.jpeg"  class="logo">
+
+            <div id="area-menu">
+                <a id="home" href="index.html">Home</a>
+                <a id="sobrenos" href="sobrenos.html">Sobre Nós</a>
+                <a id="produtos" href="produtos.html">Produtos</a>
+                <a id="contato" href="contato.html">Contato</a>
+        
+            </div>
+
+        </header>
+
+
+        <!--conteudo principal no programa-->
+        <div id="area-principal">
+
+
+            <div id="contato-lateral">
+
+                <div class="conteudo-lateral-contato">
+                    <h3>Nossos Contatos</h3>
+                <div class="postagem-lateral-contato">
+                    <a onclick="abrirjanela()"><img class="imagem-lateral" src="imagens/whatsapp-logo-icone.png" alt="icone whatsapp" width="40px"></a>
+                    <a class="lateral-nome" onclick="abrirjanela()">Acesse nosso grupo</a>
+                </div>
+        
+                <div class="postagem-lateral-contato" style="border-bottom: none;">
+                    <a onclick="abrirjanela2()"><img class="imagem-lateral" src="imagens/instragram_icone.png" alt="icone instragram" width="40px"></a>
+                    <a onclick="abrirjanela2()" class="lateral-nome" >Dan_store_</a>    
+                </div>
+    
+                </div>
+    
+        
+                </div>
+            
+
+            <div id="form_contato">
+                <form>
+                    <label for="nomesobrenome">Nome e Sobrenome</label> 
+                    <input type="text" id="nomesobrenome" maxlength="50" class="input-padrao" required placeholder="Digite seu nome e sobrenome">
+    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" maxlength="40" class="input-padrao" required placeholder="seuemail@exemplo.com.br">
+    
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" maxlength="11" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+    
+                    <label for="mensagem">Diga o que acha da Dan Store </label>
+                    <textarea cols="40" rows="9" id="mensagem"></textarea>
+    
+                    <fieldset>
+                        <legend class="titulo_contato">Como prefere o nosso contato ?</legend>
+    
+                        
+                        <label for="radio_email"><input type="radio" name="contato" value="Email" id="radio_email">Email</label>
+                        
+                        
+                        <label for="radio_telefone"><input type="radio"  name="contato" value="telefone" id="radio_telefone">Telefone</label>
+                        
+                       
+                        <label for="radio_whatsapp"><input type="radio" name="contato" value="Whatsapp" id="radio_whatsapp" checked>Whatsapp</label>
+                       
+                    </fieldset>
+    
+                    <label class="checkbox"><input type="checkbox" checked>Gostaria  de receber nossas novidades por Email e Whatsapp ?</label>
+    
+                    
+                    <input type="submit" value="Enviar formulario" class="enviar"> <!--botao texto enviar, para onde vai enviar os dados-->
+                </form>
+
+
+            </div>
+
+            
+
+
+        
+
+
+        </div>
+        <!--fim do conteudo principal-->
+
+
+       
+
+      
+
+        <footer id="rodape">
+            <img src="imagens/imagemdesenho.JPG" alt="imagem desenho" width="100px
+            ">
+            <p class="copyright">&copy; Copyright Dan Store - 2020</p>
+        </footer>
+
+    </body>
+
+
+
+</html>
